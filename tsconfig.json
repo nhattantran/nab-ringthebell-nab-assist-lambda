@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "outDir": "dist",
+        "target": "ES2018",
+        
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "strict": true,
+        "strictNullChecks": false,
+        "noFallthroughCasesInSwitch": false,
+        "noImplicitReturns": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "sourceMap": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "resolveJsonModule": true,
+        "removeComments": false,
+        "skipLibCheck": true,
+        "allowJs": true,
+        "paths": {
+            "@/*": ["./*"],
+            "@intentSchemas/*": ["./data/intents/*"],
+        },
+        "lib": [
+            "ES2018"
+        ]
+    }
+}
